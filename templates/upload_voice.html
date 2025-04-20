@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Voice</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h2>🎙️ Upload Your Voice Sample</h2>
+    {% if error %}
+      <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    <form method="POST" enctype="multipart/form-data">
+      <input type="file" name="voice" accept="audio/*" required><br>
+      <button type="submit">Upload & Continue</button>
+    </form>
+  </div>
+</body>
+</html>

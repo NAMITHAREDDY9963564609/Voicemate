@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VoiceMate</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+
+  <!-- Main Content -->
+  <header>
+    <h1>Welcome to <span class="highlight">VoiceMate</span></h1>
+    <p>Your Personalized AI Chatbot — Smart, Fast, and Uniquely Yours</p>
+    <button id="getStarted">Get Started with VoiceMate</button>
+  </header>
+
+  <section class="images">
+    <img src="{{ url_for('static', filename='images/ai_chatbot.png.webp') }}" alt="VoiceMate AI" class="animated-image" />
+  </section>
+
+  <section class="features">
+    <h2>Why VoiceMate Stands Out</h2>
+    <ul>
+      <li>🧠 AI-powered voice conversations that feel natural</li>
+      <li>🎭 Customizable personality and identity</li>
+      <li>⚡ Fast, smart, and always ready to talk</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Made with ❤ by Team VoiceMate</p>
+  </footer>
+
+  <script>
+    document.getElementById("getStarted").addEventListener("click", function () {
+      window.location.href = "/login";
+    });
+  </script>
+</body>
+</html>

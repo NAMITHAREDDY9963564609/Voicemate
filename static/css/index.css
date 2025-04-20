@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg, #ffffff, #85abff);
+    color: #1a1a1a;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  header {
+    padding: 2rem 1rem;
+  }
+  
+  header h1 {
+    font-size: 2.7rem;
+    margin-bottom: 0.5rem;
+    color: #1a1a40;
+  }
+  
+  header p {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    color: #3f3f6d;
+  }
+  
+  #getStarted {
+    background: linear-gradient(135deg, #5162f0, #7b91ff);
+    border: none;
+    padding: 0.85rem 2rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 12px rgba(110, 69, 226, 0.3);
+  }
+  
+  #getStarted:hover {
+    transform: scale(1.04);
+    box-shadow: 0 6px 18px rgba(110, 69, 226, 0.5);
+  }
+  
+  .images {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .animated-image {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .features {
+    margin: 2.5rem auto;
+    max-width: 700px;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .features h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #1f1f5e;
+  }
+  
+  .features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features li {
+    margin: 0.75rem 0;
+    font-size: 1.1rem;
+    color: #2c2c6c;
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  
+  .features li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #5162f0;
+    font-size: 1.5rem;
+    line-height: 1rem;
+  }
+  
+  footer {
+    margin-top: auto;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    color: #444;
+  }
+  

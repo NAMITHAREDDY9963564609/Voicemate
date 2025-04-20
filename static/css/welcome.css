@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #e0ecff, #b3ccff);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .welcome-header {
+    text-align: center;
+    padding: 40px 20px 20px;
+    color: #001F54;
+  }
+  
+  .welcome-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .welcome-header p {
+    font-size: 1.2rem;
+    color: #4b4b6d;
+  }
+  
+  .setup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 20px;
+  }
+  
+  .form-card {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .form-card h2 {
+    color: #1f1f5e;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="file"] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  button {
+    background-color: #3340cc;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #1c27a0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #444;
+  }
+  
+  footer a {
+    color: #3340cc;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
